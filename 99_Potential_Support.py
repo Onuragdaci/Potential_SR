@@ -148,4 +148,4 @@ for i in range(0,len(Hisseler)):
         pass
 
 filtered_df = df_signals[df_signals['SR Durumu'] != 0]
-print(filtered_df)
+print(filtered_df.to_string())
