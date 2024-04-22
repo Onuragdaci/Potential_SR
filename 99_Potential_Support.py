@@ -142,7 +142,6 @@ for i in range(0,len(Hisseler)):
         df_signals.loc[len(df_signals)] = L
 
         if SRPos!=0:
-            df_signals.loc[len(df_signals)] = L
             Plot_SR(Hisseler[i],data,Closest_hh,Closest_ll,n)
     except:
         pass
